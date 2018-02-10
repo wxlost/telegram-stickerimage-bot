@@ -11,7 +11,7 @@ Bot to export telegram stickers to images. [Here is a sample one to play with (N
 * ImageMagick with webp support (Check with `identify -list format | grep -i 'webp'` on *nix systems) (https://www.imagemagick.org/script/install-source.php)
 
 ### Usage
-0. yum -y install libwebp-devel libwebp-tools ImageMagick  and  apt-get -y install libwebp-devel libwebp-tools ImageMagick
+0. `yum -y install libwebp-devel libwebp-tools ImageMagick`  and  `apt-get -y install libwebp-devel libwebp-tools ImageMagick`
 1. git clone
 2. Get a bot token from [@BotFather](https://telegram.me/BotFather)
 3. Copy `config.js.example` to `config.js` and edit as your needs
