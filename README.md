@@ -1,7 +1,7 @@
 StickerImageBot
 ===============
 
-Bot to export telegram stickers to images. [Here is a sample one to play with (Not sure it's running)](https://telegram.me/stickerset2packbot)
+Bot to export telegram stickers to images. [Here is a sample one to play with (Not sure it's running)](https://telegram.me/OneImage_Bot)
 
 **Due to the limitation and lack of Telegram API/Documentation, You MUST send all stickers you want to export.**
 
