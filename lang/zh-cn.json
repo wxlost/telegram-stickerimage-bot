@@ -1,0 +1,25 @@
+{
+  "msg": {
+    "start": "欢迎您 我的朋友/基佬/女装大佬/ET\n\n我是贴纸导出机器人. \n你可以给我发一些贴纸，并得到一个可下载的zip文件.\n\n可用的命令:\n\n- /newpack 启动一个新的贴纸打包任务\n- /finish 得到压缩的zip文件,  如果你想获得png图像,附加参数'png', 默认是jpg. 最后可以指定宽度（不超过512，默认为512）.\n\n例如，'/finish 128'将获得调整大小为128像素宽度的jpg图像, 或 '/finish png 160' 为160px宽度png文件.\n\n- /cancel 取消你的队列中的所有任务.\n\n- /lang 改变语言.\n\n祝您使用愉快!  ╮(╯_╰)╭",
+    "newpack": "好了,现在把贴纸发送给我（最多 %max% 张.）",
+    "saved": "贴纸已收到. 还可以发送 %remain% 张贴纸. 请继续给我发送贴纸或使用 /finish 确认完成本次任务. 发送任意内容查看帮助消息.",
+    "downloading": "[1/4] 下载图片...",
+    "converting": "[2/4] 转换图片...",
+    "packaging": "[3/4] 压缩所有图片...",
+    "sending": "[4/4] 发送 .zip 文件可能需要一些时间。 过一会再来检查!",
+    "nosticker": "很遗憾, 你没有需要下载的贴纸, 也许机器人重启了, 或你没有发送贴纸. 尝试使用 /newpack 启动任务.",
+    "taskexist": "你目前有一个打包任务,请先使用 /finish 命令完成它,发送任意内容查看帮助消息.",
+    "tasklocked": "你目前有一个任务正在运行,请先等待任务完成.",
+    "taskfull": "您的队列已满,请在开始新任务之前使用 /finish 命令,发送任意内容查看帮助消息.",
+    "taskcancelled": "你的任务被取消了.",
+    "notask": "您目前没有队列中的任务。也许机器人重启了?",
+    "duplicated_sticker": "这张贴纸你已经给我发过了.",
+    "error": "哎呀！出现了一个错误...本次任务已取消",
+    "errmsg": "哎呀哎呀，出现了一个错误... \n\n%errcode%\n%errbody%\n\n请将此错误报告给 https://github.com/phoenixlzx/telegram-stickerimage-bot/issues (但在大多数情况下，这是 telegram 那边的问题)\n\n你可以使用 /cancel 和 /newpack 重启.",
+    "language_change": "你选择了简体中文。.",
+    "language_available": "可用语言: %languages%\n\n使用 '/lang 语言代码' 来改变语言. 例如: '/lang zh-cn'"
+  },
+  "app": {
+    "storagepathnotexist": "存储路径不存在，正在创建."
+  }
+}
